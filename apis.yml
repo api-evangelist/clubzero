@@ -1,7 +1,15 @@
 aid: clubzero
 name: CLUBZERO
-description: CLUBZERO is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: CLUBZERO (CLUBZERØ) is a London-based reuse system administrator helping
+  the food and beverage industry transition from single-use to reusable packaging.
+  Its AI-powered platform serializes every reusable item with a GS1-standard QR, RFID,
+  or barcode identifier, then coordinates the drop points, collection, washing, and
+  redistribution logistics that keep packaging in circulation across on-trade, online
+  delivery, and retail channels. CLUBZERO reports 95-98% return rates and 3.3M+ packaging
+  rotations, running reuse programs for brands including McDonald's, Nestlé, Aramark,
+  Compass Group, Just Eat, and the Wimbledon Championships. Backed by Seedcamp and
+  added to the API Evangelist network as a company profile; no public API surface is
+  currently documented.
 url: https://raw.githubusercontent.com/api-evangelist/clubzero/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,32 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://images.prismic.io/clubzero/99cc1426-524d-464d-bb6e-6d0e47d1ff1e_CLUBZERO_Logo_White.png
 tags:
 - Company
+- Reuse System
+- Reusable Packaging
+- Returnable Packaging
+- Circular Economy
+- Sustainability
+- Food and Beverage
+- Packaging
+- Serialization
+- Logistics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +51,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://clubzero.co
+  url: https://www.clubzero.co
+- type: About
+  url: https://www.clubzero.co/about
+- type: Support
+  url: https://www.clubzero.co/faq
+- type: Blog
+  url: https://www.clubzero.co/news
+- type: SignUp
+  url: https://www.clubzero.co/get-started
+- type: Login
+  url: https://api.clubzero.co
+- type: TermsOfService
+  url: https://www.clubzero.co/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.clubzero.co/privacy
+- type: DomainSecurity
+  url: security/clubzero-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
