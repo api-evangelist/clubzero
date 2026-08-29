@@ -11,6 +11,9 @@ description: CLUBZERO (CLUBZERØ) is a London-based reuse system administrator h
   added to the API Evangelist network as a company profile; no public API surface is
   currently documented.
 url: https://raw.githubusercontent.com/api-evangelist/clubzero/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Backed by Seedcamp and added to the API Evangelist network as a company profile; no public API surface is currently documented."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
